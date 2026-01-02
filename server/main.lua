@@ -44,9 +44,11 @@ local function AddBuff(sourceID, citizenID, buffName, time)
         else
             -- Call client event to send nui to front end to start showing enhancement
             TriggerClientEvent('hud:client:EnhancementEffect', sourceID, {
-                display = true,    
+                display = true,
                 enhancementName = buffName,
-                iconColor = buffData.iconColor
+                iconColor = buffData.iconColor,
+                iconShadow = buffData.iconShadow,
+                outlineColor = buffData.outlineColor
             })
         end
 
