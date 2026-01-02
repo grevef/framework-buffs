@@ -62,25 +62,42 @@ Config.Buffs = {
         maxTime = 3600000,
         iconColor = '#FDE829',
         type = 'enhancement',
+        -- Hud Related
+        iconShadow = '#b5a21c',
+        outlineColor = '#b5a21c',
     },
     ['super-thirst'] = {
         maxTime = 3600000,
         iconColor = '#FDE829',
         type = 'enhancement',
+        -- Hud Related
+        iconShadow = '#b5a21c',
+        outlineColor = '#b5a21c',
     },
     ['super-health'] = {
         maxTime = 3600000,
         iconColor = '#FDE829',
         type = 'enhancement',
+        -- Hud Related
+        iconShadow = '#b5a21c',
+        outlineColor = '#b5a21c',
     },
     ['super-armor'] = {
         maxTime = 3600000,
         iconColor = '#FDE829',
         type = 'enhancement',
+
+        -- Hud Related
+        iconShadow = '#b5a21c',
+        outlineColor = '#b5a21c',
     },
     ['super-stress'] = {
         maxTime = 3600000,
         iconColor = '#FDE829',
         type = 'enhancement',
+
+        -- Hud Related
+        iconShadow = '#b5a21c',
+        outlineColor = '#b5a21c',
     }
 }
